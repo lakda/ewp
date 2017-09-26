@@ -1,0 +1,20 @@
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	
+
+	background-color: $grey;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 9px 40px;
+	color: #fff;
+	font-weight: 100;
+	border: none;
+
+	&:hover,
+	&:focus {
+		background-color: $dark-grey;
+		color: #fff;
+	}
+}
